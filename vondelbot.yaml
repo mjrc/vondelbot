@@ -1,0 +1,16 @@
+---
+smtp:
+  username: <smtp_username>
+  password: <smtp_password>
+users:
+- name: John Doe
+  email: john@example.com
+  username: john@example.com
+  password: VerySecretPassword1234!
+  appointments:
+  - day: "ZATERDAG"
+    time: "09:15"
+    training: "Zaktraining"
+  - day: "ZONDAG"
+    time: "09:15"
+    training: "Zaktraining"
